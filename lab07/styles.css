@@ -1,0 +1,48 @@
+/*  rainbow
+    red: #fa1a0d
+    orange: #fd8d04
+    green: #abce30
+    dblue: #0e8bc4
+    lblue: #58b4ee
+    grey: #e3e3e3
+
+    color theme
+    light: ffeab8
+    navy: 020e54
+    green: a6deae
+    orange: ff700a
+
+    site navigation highlight color
+    site navigation link color
+*/
+
+body {
+    background-color: #a6deae;
+    color: #020e54;
+}
+
+nav {
+    background-color: #ffeab8;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+nav a {
+    color: #020e54;
+}
+nav a:hover {
+    background-color: #ff700a;
+}
+
+h1 {
+    color: #ff700a;
+}
+
+a {
+    color: #020e54;
+}
+a:hover {
+    color: #ECC686;
+}
+a:visited {
+    color: #74AC96;
+}
