@@ -72,6 +72,8 @@ a:visited {
 
 .map {
     margin-right: 100px;
+    width: 600px;
+    height: 400px;
 }
 
 label, input {
