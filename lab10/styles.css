@@ -21,39 +21,18 @@ nav a:hover {
     background-color: #ff700a;
 }
 
-table {
-    font-size: 1em;
-}
-
 h1 {
     color: #ff700a;
-    font-size: 2em;
-}
-h2 {
-    font-size: 1.5em;
-}
-
-p {
-    font-size: 1em;
 }
 
 a {
     color: #020e54;
-    font-size: 1em;
 }
 a:hover {
     color: #ECC686;
 }
 a:visited {
     color: #74AC96;
-}
-
-li {
-    font-size: 1em;
-}
-
-label {
-    font-size: 1em;
 }
 
 .header-image {
