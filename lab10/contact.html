@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home</a> <span>|</span>
+            <a href="skills.html">Skills</a> <span>|</span>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <section>
+            <h1>Contact</h1>
+            <h2>Anna Jenkins</h2>
+        </section>
+        <div class="contact-firstrow">
+            <div class="address">
+                <p>
+                    619 Comstock Ave<br>
+                    Syracuse, NY 13244
+                </p>
+            </div>
+            <div class="links">
+                <p>
+                    <a href="mailto:ahjenkin@syr.edu">Anna Jenkins Email</a>
+                </p>
+                <p>
+                    <a href="https://www.linkedin.com/in/annahjenkins/" target="_blank"><img src="../images/logo-sized.png" alt="LinkedIn logo">My LinkedIn Profile</a>
+                </p>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="contact-secondrow">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.963589396445!2d-76.13603488444419!3d43.04219757914703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3a04ece9ebd%3A0xbb4186cc3e6b03ed!2sMartin%20J.%20Whitman%20School%20of%20Management%20at%20Syracuse%20University!5e0!3m2!1sen!2sus!4v1614209589269!5m2!1sen!2sus"  allowfullscreen="" class="map"></iframe>
+            <form action="mailto:ahjenkin@syr.edu" method="POST">
+                <!-- name -->
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" id="firstname"><br>
+
+                <!-- email -->
+                <label for="inputemail">Email</label>
+                <input type="text" name="inputemail" id="inputemail"><br>
+
+                <!-- phone -->
+                <label for="inputphone">Phone Number</label>
+                <input type="text" name="inputphone" id="inputphone"><br>
+
+                <!-- radio -->
+                <p>How do you prefer to be contacted?</p>
+                <input type="radio" name="phone" id="phone" value="phone">
+                <label for="phone">Phone</label>
+                <input type="radio" name="email" id="email" value="email">
+                <label for="email">Email</label><br>
+
+                <!-- textarea -->
+                <p>Enter your message below.</p>
+                <textarea name="message" id="message" rows="10" cols="50">Type your message here.</textarea><br>
+
+                <!-- submit -->
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+    </body>
+</html>
