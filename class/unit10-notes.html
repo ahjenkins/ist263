@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 10 Accessibility</title>
+        <style>
+            #skip-button {
+                position: absolute;
+                /* position based on top left of viewport */
+                left: -999px;
+                background-color: white;
+                border: 1px solid black;
+                /* means the element is off screen */
+            }
+            /* focus means when the item is tabbed to */
+            #skip-button:focus {
+                position: absolute;
+                left: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Unit 10 Notes</h1>
+        <!-- headings should be hierarchical and only 1 h1 -->
+
+        <img src="../images/LI-Logo.png" alt="LinkedIn logo" width="200px">
+        <!-- nothing inside alt quotes means screen reader skips it -->
+        <!-- don't say image of or picture of, etc. -->
+
+        <a href="#maincontent" id="skip-button">Skip to Content</a>
+        <!-- anchor link - links lower on page -->
+
+        <a href="http://www.google.com" tabindex="2">Google</a>
+        <a href="http://www.amazon.com" tabindex="3">Amazon</a>
+        <a href="http://www.ebay.com" tabindex="1">Ebay</a>
+
+        <a id="maincontent"></a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nulla aliquet porttitor lacus luctus accumsan tortor. Et molestie ac feugiat sed lectus vestibulum. Risus in hendrerit gravida rutrum quisque non. Scelerisque viverra mauris in aliquam. Ut placerat orci nulla pellentesque dignissim enim. Adipiscing vitae proin sagittis nisl rhoncus. Ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus. Vitae justo eget magna fermentum iaculis eu non diam phasellus. Eget velit aliquet sagittis id consectetur purus. Euismod quis viverra nibh cras pulvinar mattis nunc. Amet nulla facilisi morbi tempus iaculis. Dui accumsan sit amet nulla facilisi morbi tempus iaculis urna. Leo vel orci porta non. Sem et tortor consequat id porta nibh venenatis cras. In egestas erat imperdiet sed euismod nisi porta lorem mollis.</p>
+    </body>
+</html>
