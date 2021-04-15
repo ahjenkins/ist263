@@ -27,10 +27,17 @@ h1 {
     color: #ac3b61;
     font-size: 3.5em;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 h2 {
     font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+p {
+    margin-top: 10px;
 }
 
 a {
@@ -86,7 +93,7 @@ input, #message {
     background-color: #edc7b7;
     padding: 50px;
     border-radius: 20px;
-    margin: 0px 20px;
+    margin: 30px 20px 0px;
 }
 .address {
     float: left;
