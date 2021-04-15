@@ -108,6 +108,10 @@ input, #message {
     height: 400px;
 }
 
+.contact-method p {
+    display: inline;
+}
+
 .radio {
     margin-left: 10px;
 }
