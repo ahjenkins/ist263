@@ -12,14 +12,14 @@ body {
 
 nav {
     background-color: #edc7b7;
-    color: #5f6366;
+    color: #123c69;
     padding: 10px;
 }
 nav a {
-    color: black;
+    color: #123c69;
 }
 nav a:hover {
-    background-color: #ac3b61;
+    background-color: #123c69;
     color: white;
 }
 /*
@@ -38,13 +38,13 @@ h2 {
 }
 
 a {
-    color: black;
+    color: #123c69;
 }
 a:hover {
-    color: #4d6d9a;
+    color: black;
 }
 a:visited {
-    color: #4d6d9a;
+    color: black;
 }
 
 ul {
@@ -78,7 +78,7 @@ ul {
 
 /* skills page */
 .evenrow {
-    background-color: #e6e6e6;
+    background-color: #bab2b5;
 }
 
 /* contact page */
