@@ -87,7 +87,7 @@ input, #message {
 }
 
 .contact-firstrow {
-    background-color: #e6e6e6;
+    background-color: #edc7b7;
     padding: 50px;
     border-radius: 20px;
     margin: 0px 20px;
@@ -98,7 +98,7 @@ input, #message {
 }
 
 .contact-secondrow {
-    background-color: #e6e6e6;
+    background-color: #edc7b7;
     display: flex;
     padding: 50px;
     border-radius: 20px;
