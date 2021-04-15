@@ -1,29 +1,32 @@
 /*  color theme
-    light: ffeab8
-    navy: 020e54
-    green: a6deae
-    orange: ff700a  */
+    grey: 5f6366
+    blue: 4d6d9a
+    lighter blue: 86b3d1
+    green: 99ced3
+    pink: edb5bf  */
 
 body {
-    background-color: #a6deae;
-    color: #020e54;
+    background-color: #99ced3;
+    color: black;
 }
 
 nav {
-    background-color: #ffeab8;
+    background-color: #edb5bf;
+    color: #5f6366;
     padding: 10px;
-    margin-bottom: 30px;
 }
 nav a {
-    color: #020e54;
+    color: #5f6366;
 }
 nav a:hover {
-    background-color: #ff700a;
+    background-color: #4d6d9a;
+    color: white;
 }
 
 h1 {
-    color: #ff700a;
-    font-size: 2em;
+    color: #4d6d9a;
+    font-size: 3.5em;
+    margin-top: 0px;
 }
 
 h2 {
@@ -31,13 +34,17 @@ h2 {
 }
 
 a {
-    color: #020e54;
+    color: black;
 }
 a:hover {
-    color: #ECC686;
+    color: #4d6d9a;
 }
 a:visited {
-    color: #74AC96;
+    color: #4d6d9a;
+}
+
+ul {
+    list-style-position: inside;
 }
 
 .header-image {
@@ -67,7 +74,7 @@ a:visited {
 
 /* skills page */
 .evenrow {
-    background-color: white;
+    background-color: #e6e6e6;
 }
 
 /* contact page */
@@ -76,8 +83,8 @@ input, #message {
 }
 
 .contact-firstrow {
+    background-color: #e6e6e6;
     padding: 50px;
-    background-color: #ffeab8;
     border-radius: 20px;
     margin: 0px 20px;
 }
@@ -87,9 +94,9 @@ input, #message {
 }
 
 .contact-secondrow {
+    background-color: #e6e6e6;
     display: flex;
     padding: 50px;
-    background-color: #ffeab8;
     border-radius: 20px;
     margin: 30px 20px;
     flex-wrap: wrap;
