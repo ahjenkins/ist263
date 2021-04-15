@@ -12,11 +12,11 @@ body {
 
 nav {
     background-color: #edc7b7;
-    color: #123c69;
+    color: black;
     padding: 10px;
 }
 nav a {
-    color: #123c69;
+    color: black;
 }
 nav a:hover {
     background-color: #123c69;
