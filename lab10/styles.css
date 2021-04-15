@@ -54,14 +54,25 @@ a:visited {
     clear: both;
 }
 
+#skip-button {
+    position: absolute;
+    left: -999px;
+    background-color: white;
+    border: 1px solid black;
+}
+#skip-button:focus {
+    position: absolute;
+    left: 10px;
+}
+
 /* skills page */
 .evenrow {
     background-color: white;
 }
 
 /* contact page */
-label, input {
-    margin: 5px 0px;
+input, #message {
+    margin: 10px 0px;
 }
 
 .contact-firstrow {
@@ -90,15 +101,8 @@ label, input {
     height: 400px;
 }
 
-#skip-button {
-    position: absolute;
-    left: -999px;
-    background-color: white;
-    border: 1px solid black;
-}
-#skip-button:focus {
-    position: absolute;
-    left: 10px;
+.radio {
+    margin-left: 10px;
 }
 
 @media only screen and (max-width: 768px) {
