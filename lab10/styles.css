@@ -1,30 +1,34 @@
 /*  color theme
-    grey: 5f6366
-    blue: 4d6d9a
-    lighter blue: 86b3d1
-    green: 99ced3
-    pink: edb5bf  */
+    peach: edc7b7
+    light: eee2dc
+    grey: bab2b5
+    navy: 123c69
+    magenta: ac3b61  */
 
 body {
-    background-color: #99ced3;
-    color: black;
+    background-color: #eee2dc;
+    color: #123c69;
 }
 
 nav {
-    background-color: #edb5bf;
+    background-color: #edc7b7;
     color: #5f6366;
     padding: 10px;
 }
 nav a {
-    color: #5f6366;
+    color: black;
 }
 nav a:hover {
-    background-color: #4d6d9a;
+    background-color: #ac3b61;
     color: white;
 }
-
+/*
+nav a:visited {
+    color: #5f6366;
+}
+*/
 h1 {
-    color: #4d6d9a;
+    color: #ac3b61;
     font-size: 3.5em;
     margin-top: 0px;
 }
