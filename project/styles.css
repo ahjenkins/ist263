@@ -1,0 +1,95 @@
+/*
+dark green: #026670
+light green: #9fedd7
+light yellow: #fef9c7
+dark yellow: #fce181
+grey: #edeae5
+*/
+
+body {
+    background-color: #edeae5;
+    font-family: Helvetica, sans-serif;
+}
+
+nav {
+    background-color: #026670;
+    padding: 15px 10px;
+}
+nav a {
+    color: #edeae5;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 1.15em;
+}
+
+header {
+    margin-top: ;
+}
+header, p {
+    margin-left: 5%;
+}
+
+hr {
+    margin-right: 56%;
+}
+
+
+header h1 {
+    margin-top: 40px;
+}
+.subheadings {
+    margin-top: 80px;
+}
+
+.clear {
+    clear: both;
+}
+/* home page */
+/* Determine Your Fitness Level */
+.home-p {
+    margin-top: 30px;
+    margin-right: 54%;
+}
+
+.level-img {
+    float: right;
+    margin-right: 5%;
+}
+
+.beginner-level, .intermediate-level, .advanced-level {
+    margin-top: 50px;
+}
+
+/* Setting Your Fitness Goals */
+.goals-img {
+    float: left;
+    margin: 30px 10% 0px 5%;
+}
+.steps-goals {
+    margin-top: 5%;
+    margin-right: 5%;
+}
+.steps-goals h3 {text-align: center;}
+.steps-goals ol {list-style-position: inside;}
+.steps-goals li {margin: 50px 0px;}
+
+/* Playlists */
+#playlists-img {
+    width: 100%;
+    margin: 0px;
+}
+#workout-playlists header{
+    position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+    nav a {
+        display: block;
+        width: 100%;
+        margin: 0px 0px 10px 10px;
+    }
+
+    .header-image {
+        width: 100%;
+    }
+}
