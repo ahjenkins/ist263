@@ -7,7 +7,8 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <img src="media/fitness_header.png" alt="" class="header-image">
+        <!-- show header image once resized to fit the page, or take out altogether 
+        <img src="media/fitness_header.png" alt="" class="header-image"> -->
         <nav>
             <a href="index.html">Home</a>
             <a href="beginner.html">Beginner</a>
@@ -28,6 +29,7 @@
                     <h2>Determining Your Fitness Level</h2>
                     <hr>
                 </header>
+                <!-- possibly add Javascript here for slideshow each level -->
                 <div class="beginner-level">
                     <img src="media/beginner.png" alt="" class="level-img" id="beginner-img">
                     <p class="home-p">
@@ -70,27 +72,25 @@
                     <div class="clear"></div>
             </section>
         </main>
-        <section id="workout-playlists">
+        <section>
             <header class="subheadings">
                 <h2>Workout Playlists</h2>
                 <hr>
             </header>
-            <img src="media/playlists.png" alt="Man in a beginning race stance and to run." id="playlists-img">
-            <!-- make this image the background of this section by adding a class to this section and using CSS later -->
-            <p class="home-p">
-                Music inspires you to perform harder and longer. Here are some playlists you may be interested in listening to while working out.
-            </p>
-            <!-- maybe add spotify and YouTube icons later -->
-            <div class="spotify-links">
-                <a href="https://open.spotify.com/playlist/37i9dQZF1DX76Wlfdnj7AP?si=db2755cb7231490a" target="_blank">Beast Mode</a> <span>|</span> <!-- possibly add Spotify's embedded code instead of link if it looks better with CSS -->
-                <a href="https://open.spotify.com/playlist/37i9dQZF1DX70RN3TfWWJh?si=f93957e63bda4439" target="_blank">Workout</a> <span>|</span>
-                <a href="https://open.spotify.com/playlist/37i9dQZF1DWTDafB3skWPN?si=4664832a6c634b9a" target="_blank">Feeling Accomplished</a>
+            <div class="playlists">
+                <img src="media/playlists.png" alt="Man in a beginning race stance and to run." class="playlists-img">
+                <p class="home-p">
+                    Music inspires you to perform harder and longer. Here are some playlists you may be interested in listening to while working out.
+                </p>
+                <!-- maybe add spotify and YouTube icons later -->
+                <div class="spotify-playlists">
+                    <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX76Wlfdnj7AP" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" class="spotify-link"></iframe>
+                    <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX70RN3TfWWJh" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" class="spotify-link"></iframe>
+                    <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWTDafB3skWPN" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" class="spotify-link"></iframe>
+                    <iframe src="https://open.spotify.com/embed/playlist/3I3wu02ai6yttI2fbAjI7O" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" class="spotify-link"></iframe>
+                </div>
             </div>
-            <div class="youtube-links">
-                <a href="https://youtu.be/2JZY3ZtCUs4" target="_blank">Pop</a> <span>|</span>
-                <a href="https://youtu.be/iqqEnK6JVmE" target="_blank">Upbeat Motivation</a> <span>|</span>
-                <a href="https://youtu.be/2m7xhOfULnA" target="_blank">2020 Motivation</a>
-            </div>
+            <div class="clear"></div>
         </section>
         <footer>
             <p>Anna Jenkins, 2021</p>

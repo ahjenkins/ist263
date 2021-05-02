@@ -22,17 +22,21 @@ nav a {
     font-size: 1.15em;
 }
 
-header {
-    margin-top: ;
-}
-header, p {
-    margin-left: 5%;
-}
-
 hr {
     margin-right: 56%;
 }
 
+footer {
+    margin-top: 80px;
+    padding: 2px 0px;
+    font-size: 0.9em;
+    background-color: #026670;
+    color: #edeae5;
+}
+
+header, p, .spotify-playlists, .youtube-links {
+    margin-left: 8%;
+}
 
 header h1 {
     margin-top: 40px;
@@ -48,12 +52,13 @@ header h1 {
 /* Determine Your Fitness Level */
 .home-p {
     margin-top: 30px;
-    margin-right: 54%;
+    margin-right: 55%;
 }
 
 .level-img {
     float: right;
-    margin-right: 5%;
+    margin-right: 8%;
+    height: 350px;
 }
 
 .beginner-level, .intermediate-level, .advanced-level {
@@ -63,24 +68,34 @@ header h1 {
 /* Setting Your Fitness Goals */
 .goals-img {
     float: left;
-    margin: 30px 10% 0px 5%;
+    margin: 30px 18% 0px 8%;
+    height: 350px;
 }
 .steps-goals {
     margin-top: 5%;
-    margin-right: 5%;
+    margin-right: 8%;
 }
 .steps-goals h3 {text-align: center;}
 .steps-goals ol {list-style-position: inside;}
 .steps-goals li {margin: 50px 0px;}
 
 /* Playlists */
-#playlists-img {
-    width: 100%;
-    margin: 0px;
+.playlists {
+    margin-top: 30px;
 }
-#workout-playlists header{
-    position: absolute;
+.spotify-link:hover {
+    height: 380px;
+    /* shows playlist songs on hover */
 }
+.playlists-img {
+    width: 40%;
+    margin-right: 8%;
+    float: right;
+}
+.spotify-playlists {
+    margin-top: 50px;
+}
+
 
 @media only screen and (max-width: 600px) {
     nav a {
