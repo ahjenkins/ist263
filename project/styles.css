@@ -190,6 +190,13 @@ header, p, .spotify-playlists {
     #motivation hr {
         margin-right: 10%;
     }
+    /* quotes */
+    .motivation-img {
+        width: 100%;
+        margin-top: 30px;
+        display: block;
+    }
+    /* affirmations */
     #motivation .first-half {
         margin-right: 5%;
         float: left;
