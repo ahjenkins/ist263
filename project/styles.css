@@ -197,17 +197,20 @@ header, p, .spotify-playlists {
         display: block;
     }
     /* affirmations */
-    #motivation .first-half {
+    .affirmations {
+        margin: 30px 10% 0 8%;
+    }
+    .affirmations .first-half {
         margin-right: 5%;
         float: left;
         list-style-position: inside;
     }
-    #motivation .second-half {
+    .affirmations .second-half {
+        padding-top: 0.1px;
         list-style-position: inside;
     }
-    #motivation li {
+    .affirmations li {
         margin-bottom: 20px;
     }
-    
     
 }
