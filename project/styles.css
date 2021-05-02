@@ -94,6 +94,27 @@ header, p, .spotify-playlists {
     display: inline-block;
 }
 
+/* motivation page */
+/* quotes */
+.quotes, .affirmations {
+    margin: 30px 10% 0 8%;
+} /* grouped selector */
+.quotes li {
+    margin-top: 20px;
+    list-style-position: inside;
+}
+.motivation-img {
+    display: none;
+}
+/* affirmations */
+.affirmation-img {
+    width: 50%;
+    margin-top: 20px;
+    float: left;
+}
+
+
+/* FOR TABLETS */
 @media only screen and (min-width: 768px) {
     /* home page */
     /* determine your fitness level */
@@ -116,6 +137,8 @@ header, p, .spotify-playlists {
     }
 }
 
+
+/* FOR LAPTOPS AND DESKTOPS */
 @media only screen and (min-width: 992px) {
     nav a {
         display: inline;
@@ -162,5 +185,22 @@ header, p, .spotify-playlists {
     .spotify-link:hover {
         height: 380px;
     }
-   
+
+    /* motivation page */
+    #motivation hr {
+        margin-right: 10%;
+    }
+    #motivation .first-half {
+        margin-right: 5%;
+        float: left;
+        list-style-position: inside;
+    }
+    #motivation .second-half {
+        list-style-position: inside;
+    }
+    #motivation li {
+        margin-bottom: 20px;
+    }
+    
+    
 }
