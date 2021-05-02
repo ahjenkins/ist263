@@ -34,7 +34,7 @@ footer {
     color: #edeae5;
 }
 
-header, p, .spotify-playlists, .youtube-links {
+header, p, .spotify-playlists, .youtube-links, .stretch-lists {
     margin-left: 8%;
 }
 
@@ -50,9 +50,8 @@ header h1 {
 }
 /* home page */
 /* Determine Your Fitness Level */
-.home-p {
-    margin-top: 30px;
-    margin-right: 55%;
+.home-p, .beginner-p {
+    margin: 30px 55% 0px 8%;
 }
 
 .level-img {
@@ -72,8 +71,7 @@ header h1 {
     height: 350px;
 }
 .steps-goals {
-    margin-top: 5%;
-    margin-right: 8%;
+    margin: 5% 8% 0px 0px;
 }
 .steps-goals h3 {text-align: center;}
 .steps-goals ol {list-style-position: inside;}
@@ -87,7 +85,8 @@ header h1 {
     height: 380px;
     /* shows playlist songs on hover */
 }
-.playlists-img {
+.playlists-img, .stretching-img {
+    /* adjusts images from different pages */
     width: 40%;
     margin-right: 8%;
     float: right;
@@ -96,15 +95,54 @@ header h1 {
     margin-top: 50px;
 }
 
+/* beginnger page */
+/* where to begin */
+
+
 
 @media only screen and (max-width: 600px) {
     nav a {
         display: block;
         width: 100%;
-        margin: 0px 0px 10px 10px;
+        margin: 5px 0px 10px 20px;
     }
 
-    .header-image {
-        width: 100%;
+    hr {
+        margin-right: 10%;
+    }
+
+    /* home page */
+    /* determine your fitness level */
+    .home-p, .beginner-p {
+        margin: 30px 10% 0px 8%;
+    }
+    
+    .level-img {
+        display: none;
+    }
+    
+    /* setting your fitness goals */
+    .goals-img {
+        display: none;
+    }
+    .steps-goals {
+        margin: 30px 10% 0px 8%;
+    }
+    .steps-goals h3 {text-align: center;}
+    .steps-goals ol {list-style-position: inside;}
+    .steps-goals li {margin: 25px 0px 0 0;}
+
+    /* playlists */
+    .spotify-link {
+        display: inline-block;
+        width: 80px;
+        margin-right: 25px;
+    }
+    .spotify-link:hover {
+        height: 80px;
+        /* doesn't change view on hover */
+    }
+    .playlists-img, .stretching-img {
+        display: none;
     }
 }
