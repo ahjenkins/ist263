@@ -54,6 +54,10 @@ ul {
     list-style-position: inside;
 }
 
+h1, h2 {
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
 .header-image {
     float: left;
     margin-right: 10px;
