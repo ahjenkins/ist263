@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Advanced | College Fitness Page</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" type="image/x-icon" href="media/favicon.ico">
     </head>
     <body>
         <nav>
@@ -19,7 +20,7 @@
                 <h1>Advanced</h1>
                 <hr>
             </header>
-            <p>
+            <p class="advanced-p">
                 Welcome! I’m so excited you’re here :) If you’re on this page, you likely know all of the basic information of building a workout, all the different exercises, and the importance of rest. Once you start seeing results, working out can get addicting! This page guides you through a schedule where you can work out every day while not taxing your body too much.
             </p>
         </main>
@@ -28,30 +29,30 @@
                 <h2>Exercises</h2>
                 <hr>
             </header>
-            <p>For this level, I am going to suggest a 6-day split and yoga on day 7. This includes:</p>
-            <ol>
+            <p class="advanced-p">For this level, I am going to suggest a 6-day split and yoga on day 7. This includes:</p>
+            <ol class="exercise-list">
                 <li>Push</li>
                 <li>Pull</li>
                 <li>Legs</li>
                 <li>Repeat day 1</li>
                 <li>Repeat day 2</li>
-                <li>Re[eat day 3</li>
+                <li>Repeat day 3</li>
                 <li>Search <a href="https://www.youtube.com/results?search_query=yoga" target="_blank">YouTube</a> for any yoga routine that fits your schedule.</li>
             </ol>
-            <img src="media/advanced_exercises.png" alt="Woman performing a barbell squat.">
+            <img src="media/advanced_exercises.png" alt="Woman performing a barbell squat." class="exercise-img">
         </section>
         <section>
             <header>
                 <h2>Simple Routine</h2>
                 <hr>
             </header>
-            <p>
+            <p class="advanced-p">
                 This level allows much more flexibility in structuring your workout. Feel free to adjust the number of sets, reps, and weight as you wish for each program.<br>
                 The table below compiles a simple routine you can follow if you lack time to create one on your own.
             </p>
-            <table>
+            <table class="routine" id="advanced-routine">
                 <caption>Routine</caption>
-                <tr>
+                <tr class="evenrow">
                     <th>Push</th>
                     <th>Pull</th>
                     <th>Leg</th>
@@ -65,7 +66,7 @@
                 </tr>
 
                 <!-- Row 2 -->
-                <tr>
+                <tr class="evenrow">
                     <td>Arnold Press</td>
                     <td>Lat Pulldown</td>
                     <td>Deadlift</td>
@@ -79,7 +80,7 @@
                 </tr>
 
                 <!-- Row 4 -->
-                <tr>
+                <tr class="evenrow">
                     <td>DB Incline Bench Press</td>
                     <td>DB Shrugs</td>
                     <td>Leg Press</td>
@@ -93,14 +94,14 @@
                 </tr>
 
                 <!-- Row 6 -->
-                <tr>
+                <tr class="evenrow">
                     <td>DB Overhead Press</td>
                     <td>Bicep Curls</td>
                     <td>Calf Raises</td>
                 </tr>
             </table>
             <p>
-                A sample schedule is provied for you below
+                A sample schedule is provied for you below.
             </p>
             <img src="media/advanced_sample.png" alt="Advanced Sample Schedule">
         </section>
@@ -109,22 +110,22 @@
                 <h2>Contact</h2>
                 <hr>
             </header>
-            <p>
+            <p class="advanced-p">
                 If you'd like to add anything or discuss something on this page, feel free to fill out the form below and I'll respond as soon as possible.
             </p>
-            <form action="mailto:ahjenkin@syr.edu" method="POST">
+            <form action="mailto:ahjenkin@syr.edu" method="POST" id="contact-form">
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name"><br>
 
                 <label for="email">Email</label>
                 <input type="text" name="email" id="email"><br>
 
-                <label for="message">Message</label>
+                <label for="message">Message</label><br>
                 <textarea name="message" id="message" rows="10" cols="50"></textarea><br>
 
                 <input type="submit" value="Send Message">
             </form>
-            <img src="media/contact.png" alt="Women exchanging contact information on their phone and computer.">
+            <img src="media/contact.png" alt="Women exchanging contact information on their phone and computer." class="contact-img">
         </section>
         <footer>
             <p>Anna Jenkins, 2021</p>
