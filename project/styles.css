@@ -56,18 +56,19 @@ footer p {
 }
 
 /* grouped selectors (all pages)*/
-header, p, .spotify-playlists {
+header, p, .spotify-playlists, .stretch-lists {
     margin-left: 8%;
 }
 
 /* home page */
 /* determine your fitness level */
-.home-p, .beginner-p {
+.home-p, .beginner-p, .intermediate-p, .terminology-dict, .advanced-p {
     margin: 4% 10% 0% 8%;
 } /* grouped selector (multiple pages) */
 .level-img {
     display: none;
 }
+#level-thumbnails {display: none;}
 
 /* setting your fitness goals */
 .goals-img {
@@ -118,6 +119,51 @@ header, p, .spotify-playlists {
 
 /* beginner page */
 /* where to begin */
+.stretching-img {display: none;}
+.stretch-lists {
+    list-style-position: inside;
+}
+.stretch-lists li {
+    margin-bottom: 5px;
+}
+
+
+/* intermediate page */
+/* exercises */
+.exercise-img {display: none;}
+.exercise-list {
+    list-style-position: inside;
+    margin: 0px 10% 0px 8%;
+}
+.terminology-img {display: none;}
+.terminology-dict dd {
+    margin-bottom: 10px;
+}
+
+
+/* advanced page */
+/* exercises */
+/* routine */
+.routine {
+    margin: 0px 10% 0px 8%;
+    border: 1px solid black;
+}
+.evenrow {
+    background-color: #C0C0C0;
+    
+    
+}
+/* contact */
+.contact-img {display: none;}
+#contact-form {
+    margin: 0px 10% 0px 8%;
+}
+#message {
+    resize: none;
+    width: 100%;
+    /* change cols of message box */
+}
+
 
 /* FOR TABLETS */
 @media only screen and (min-width: 768px) {
@@ -137,6 +183,14 @@ header, p, .spotify-playlists {
     .spotify-playlists {
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+
+    /* advvanced page */
+    /* contact */
+    #message {
+        width: 50%;
+        /* change cols of message box */
     }
 
 
@@ -162,6 +216,20 @@ header, p, .spotify-playlists {
     .fitness-level p {
         margin: 30px 48% 0 8%;
     }
+    #intermediate-img, #intermediate-info, #advanced-img, #advanced-info {display: none;}
+    #beginner-info, #intermediate-info, #advanced-info {
+        padding-top: 70px;
+    }
+    #level-thumbnails {
+        display: block;
+        width: 309px;
+        margin: auto;
+    }
+    #level-thumbnails img {
+        width: 100px;
+        
+    }
+    
 
     /* setting your fitness goals */
     .goals-img {

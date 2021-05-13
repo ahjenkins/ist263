@@ -6,6 +6,31 @@
         <title>Home | College Fitness Page</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="shortcut icon" type="image/x-icon" href="media/favicon.ico">
+        <script>
+            function levelsOff() {
+                /* turn off level images */
+                document.getElementById("beginner-img").style.display = "none";
+                document.getElementById("intermediate-img").style.display = "none";
+                document.getElementById("advanced-img").style.display = "none";
+                /* turn off level descriptions */
+                document.getElementById("beginner-info").style.display = "none";
+                document.getElementById("intermediate-info").style.display = "none";
+                document.getElementById("advanced-info").style.display = "none";
+            }
+
+            function beginnerOn() {
+                document.getElementById("beginner-img").style.display = "block";
+                document.getElementById("beginner-info").style.display = "block";
+            }
+            function intermediateOn() {
+                document.getElementById("intermediate-img").style.display = "block";
+                document.getElementById("intermediate-info").style.display = "block";
+            }
+            function advancedOn() {
+                document.getElementById("advanced-img").style.display = "block";
+                document.getElementById("advanced-info").style.display = "block";
+            }
+        </script>
     </head>
     <body>
         <!-- show header image once resized to fit the page, or take out altogether 
@@ -34,29 +59,35 @@
                 <div class="fitness-level">
                     <div class="beginner-level">
                         <img src="media/beginner.png" alt="" class="level-img" id="beginner-img">
-                        <p class="home-p">
+                        <p class="home-p" id="beginner-info">
                             <strong>Beginner</strong><br>
                             If you've been on a hiatus from working out, I recommend starting at beginner. Don't worry though, this will help you ease back into fitness without pulling a muscle or any other sort of injury.
                         </p>
                     </div>
                     <div class="clear"></div>
                     <div class="intermediate-level">
-                        <img src="media/intermediate.png" alt="" class="level-img">
-                        <p class="home-p">
+                        <img src="media/intermediate.png" alt="" class="level-img" id="intermediate-img">
+                        <p class="home-p" id="intermediate-info">
                             <strong>Intermediate</strong><br>
                             If you've been exercising regularly in the past 1-3 months, I recommend starting at intermediate. This level will help build your muscle and get you into the habit of working out on a regular basis.
                         </p>
                     </div>
                     <div class="clear"></div>
                     <div class="advanced-level">
-                        <img src="media/advanced.png" alt="" class="level-img">
-                        <p class="home-p">
+                        <img src="media/advanced.png" alt="" class="level-img" id="advanced-img">
+                        <p class="home-p" id="advanced-info">
                             <strong>Advanced</strong><br>
                             If you've been exercising regularly for the past 3-6+ months, I recommend starting at advanced. You may alreday know a lot of the information I provide. However, I encourage you to try something new!
                         </p>
                     </div>
                     <div class="clear"></div>
+                    <div id="level-thumbnails">
+                        <img src="media/beginner.png" alt="" id="beginner-thumb" onclick="levelsOff(); beginnerOn();">
+                        <img src="media/intermediate.png" alt="" id="intermediate-thumb" onclick="levelsOff(); intermediateOn();">
+                        <img src="media/advanced.png" alt="" id="advanced-thumb" onclick="levelsOff(); advancedOn();">
+                    </div>
                 </div>
+                <div class="clear"></div>
             </section>
             <section>
                 <header class="subheadings">
