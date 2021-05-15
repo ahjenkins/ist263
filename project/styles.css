@@ -12,6 +12,10 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
+.header-image {
+    width: 100%;
+}
+
 /* navigation bar */
 nav {
     background-color: #026670;
