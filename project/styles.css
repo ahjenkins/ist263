@@ -62,6 +62,9 @@ footer p {
 header, p, .spotify-playlists, .stretch-lists {
     margin-left: 8%;
 }
+.schedule {
+    width: 100%;
+}
 
 /* home page */
 /* determine your fitness level */
@@ -174,6 +177,9 @@ header, p, .spotify-playlists, .stretch-lists {
 /* FOR TABLETS */
 @media only screen and (min-width: 768px) {
     /* home page */
+    .header-image {
+        width: auto;
+    }
     /* determine your fitness level */
     .level-img {
         display: block;
