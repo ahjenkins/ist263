@@ -102,25 +102,6 @@ header, p, .spotify-playlists, .stretch-lists {
     flex: 1;
 }
 
-/* motivation page */
-/* quotes */
-.quotes, .affirmations {
-    margin: 30px 10% 0 8%;
-} /* grouped selector */
-.quotes li {
-    margin-top: 20px;
-    list-style-position: inside;
-}
-.motivation-img {
-    display: none;
-}
-/* affirmations */
-.affirmation-img {
-    width: 50%;
-    margin-top: 20px;
-    float: left;
-}
-
 
 /* beginner page */
 /* where to begin */
@@ -170,6 +151,26 @@ header, p, .spotify-playlists, .stretch-lists {
 }
 
 
+/* motivation page */
+/* quotes */
+.quotes, .affirmations, .affirmation-images {
+    margin: 30px 10% 0 8%;
+} /* grouped selector */
+.quotes li {
+    margin-top: 20px;
+    list-style-position: inside;
+}
+.motivation-img {
+    display: none;
+}
+/* affirmations */
+.affirmation-img {
+    width: 50%;
+    margin-top: 20px;
+    float: left;
+}
+
+
 /* FOR TABLETS */
 @media only screen and (min-width: 768px) {
     /* home page */
@@ -197,7 +198,6 @@ header, p, .spotify-playlists, .stretch-lists {
         width: 50%;
         /* change cols of message box */
     }
-
 
 
 /* FOR LAPTOPS AND DESKTOPS */
@@ -275,15 +275,18 @@ header, p, .spotify-playlists, .stretch-lists {
     }
     /* affirmations */
     .affirmations {
-        margin: 30px 10% 0 8%;
+        margin-left: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
     .affirmations .first-half {
-        margin-right: 5%;
-        float: left;
+        flex: 1;
         list-style-position: inside;
     }
+    
     .affirmations .second-half {
-        padding-top: 0.1px;
+        flex: 1;
         list-style-position: inside;
     }
     .affirmations li {
