@@ -16,6 +16,8 @@ body {
     width: 100%;
 }
 
+.clear {clear: both;}
+
 /* navigation bar */
 nav {
     background-color: #026670;
@@ -55,9 +57,6 @@ footer p {
     margin-left: 20px;
 }
 
-.clear {
-    clear: both;
-}
 
 /* grouped selectors (all pages)*/
 header, p, .spotify-playlists, .stretch-lists {
@@ -66,7 +65,7 @@ header, p, .spotify-playlists, .stretch-lists {
 
 /* home page */
 /* determine your fitness level */
-.home-p, .beginner-p, .intermediate-p, .terminology-dict, .advanced-p {
+.home-p, .steps-goals h3, .beginner-p, .intermediate-p, .terminology-dict, .advanced-p {
     margin: 4% 10% 0% 8%;
 } /* grouped selector (multiple pages) */
 .level-img {
@@ -79,7 +78,9 @@ header, p, .spotify-playlists, .stretch-lists {
     display: none;
 }
 
-.steps-goals h3 {text-align: center;}
+.steps-goals h3 {
+    text-align: center;
+}
 .steps-goals ol {list-style-position: inside;}
 .steps-goals li {
     padding: 5px 0 25px 0;
