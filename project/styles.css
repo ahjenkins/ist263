@@ -101,17 +101,20 @@ header, p, .spotify-playlists, .stretch-lists {
 
 /* playlists */
 .playlists-img {display: none;}
-
-.spotify-playlists {
-    margin: 30px 10% 0 8%;
+.playlists-mobile {
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+}
+.playlists-mobile i {
+    padding: 10px 0px;
 }
 
-.spotify-playlists div {
-    flex: 1;
+.spotify-playlists {
+    display: none;
 }
 
 
@@ -232,9 +235,20 @@ header, p, .spotify-playlists, .stretch-lists {
     }
 
     /* playlists */
+    .playlists-mobile {
+        display: none;
+    }
     .spotify-playlists {
+        margin: 30px 10% 0 8%;
+        display: block;
+        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .spotify-playlists div {
+        flex: 1;
     }
 
 

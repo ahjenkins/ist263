@@ -6,6 +6,7 @@
         <title>Home | College Fitness Page</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="shortcut icon" type="image/x-icon" href="media/favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script>
             function levelsOff() {
                 /* turn off level images */
@@ -117,11 +118,22 @@
                 <p class="home-p">
                     Music inspires you to perform harder and longer. Here are some playlists you may be interested in listening to while working out.
                 </p>
-                <div class="spotify-playlists"> <!-- flexbox -->
-                    <div><iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX76Wlfdnj7AP" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" class="spotify-link"></iframe></div>
-                    <div><iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX70RN3TfWWJh" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" class="spotify-link"></iframe></div>
-                    <div><iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWTDafB3skWPN" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" class="spotify-link"></iframe></div>
-                    <div><iframe src="https://open.spotify.com/embed/playlist/3I3wu02ai6yttI2fbAjI7O" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" class="spotify-link"></iframe></div>
+                <!-- just for mobile -->
+                <div class="playlists-mobile">
+                        <i class="fa fa-music home-p"> <a href="" target="_blank">Beast Mode</a></i>
+                        <i class="fa fa-music home-p"> <a href="" target="_blank">Feeling Accomplished</a></i>
+                        <i class="fa fa-music home-p"> <a href="" target="_blank">Workout</a></i>
+                        <i class="fa fa-music home-p"> <a href="" target="_blank">Workout Remixes</a></i>
+                </div>
+                <!-- end just for mobile -->
+
+                <div class="playlist-links">
+                    <div class="spotify-playlists"> <!-- flexbox -->
+                        <div><iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX76Wlfdnj7AP" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" class="spotify-link"></iframe></div>
+                        <div><iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX70RN3TfWWJh" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" class="spotify-link"></iframe></div>
+                        <div><iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DWTDafB3skWPN" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" class="spotify-link"></iframe></div>
+                        <div><iframe src="https://open.spotify.com/embed/playlist/3I3wu02ai6yttI2fbAjI7O" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" class="spotify-link"></iframe></div>
+                    </div>
                 </div>
                 <div class="clear"></div>
             </div>
