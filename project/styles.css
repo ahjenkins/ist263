@@ -15,6 +15,9 @@ body {
 .header-image {
     width: 100%;
 }
+#header-image-desktop {
+    display: none;
+}
 
 .clear {clear: both;}
 
@@ -209,8 +212,14 @@ header, p, .spotify-playlists, .stretch-lists {
 @media only screen and (min-width: 768px) {
     /* home page */
     .header-image {
-        height: 20%;
+        display: none;
     }
+    #header-image-desktop {
+        width: 100%;
+        margin-bottom: 5px;
+        display: block;
+    }
+    
     /* determine your fitness level */
     .level-img {
         display: block;
@@ -248,8 +257,8 @@ header, p, .spotify-playlists, .stretch-lists {
 
     /* home page */
     /* determine your fitness level */
-    .home-p {
-        margin: 30px 48% 0px 8%;
+    .home-p, .steps-goals h3, .beginner-p, .intermediate-p, .terminology-dict, .advanced-p {
+        margin: 30px 10% 0% 8%;
     }
     .level-img {
         height: 250px;
