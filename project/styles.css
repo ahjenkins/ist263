@@ -115,6 +115,31 @@ header, p, .spotify-playlists, .stretch-lists {
 .stretch-lists li {
     margin-bottom: 5px;
 }
+/* exercises */
+.b-exercises {
+    margin: 30px 10% 0% 8%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.b-exercises th, .b-exercises td {
+    padding: 5px;
+    border-right: 1px solid black;
+    text-align: center;
+}
+/* routine */
+.schedule {
+    display: none;
+}
+.routine {
+    margin: 30px 10% 30px 8%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.routine th, .routine td {
+    padding: 5px;
+    border-right: 1px solid black;
+    text-align: center;
+}
 
 
 /* intermediate page */
@@ -133,7 +158,7 @@ header, p, .spotify-playlists, .stretch-lists {
 /* advanced page */
 /* exercises */
 /* routine */
-.routine {
+#advanced-routine {
     margin: 0px 10% 0px 8%;
     border: 1px solid black;
 }
@@ -241,7 +266,6 @@ header, p, .spotify-playlists, .stretch-lists {
         
     }
     
-
     /* setting your fitness goals */
     .goals-img {
         display: block;
@@ -267,6 +291,18 @@ header, p, .spotify-playlists, .stretch-lists {
     .spotify-link {}
     .spotify-link:hover {
         height: 380px;
+    }
+
+
+    /* beginner page */
+    /* routine */
+    .schedule {
+        margin: 30px 10% 0px 8%;
+        width: 81%;
+        display: block;
+    }
+    .routine {
+        display: none;
     }
 
     /* motivation page */
