@@ -101,20 +101,17 @@ header, p, .spotify-playlists, .stretch-lists {
 
 /* playlists */
 .playlists-img {display: none;}
-.playlists-mobile {
-    width: 200px;
-    margin: auto;
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.playlists-mobile i {
-    padding: 10px 0px;
-}
 
 .spotify-playlists {
-    display: none;
+    margin: 30px 10% 0 8%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.spotify-playlists div {
+    flex: 1;
 }
 
 
@@ -182,7 +179,10 @@ header, p, .spotify-playlists, .stretch-lists {
 /* contact */
 .contact-img {display: none;}
 #contact-form {
-    margin: 0px 10% 0px 8%;
+    margin: 30px 10% 0px 8%;
+}
+#contact-form label, #contact-form input {
+    padding-top: 10px;
 }
 #message {
     resize: none;
@@ -235,29 +235,28 @@ header, p, .spotify-playlists, .stretch-lists {
     }
 
     /* playlists */
-    .playlists-mobile {
-        display: none;
-    }
     .spotify-playlists {
-        margin: 30px 10% 0 8%;
-        display: block;
-        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
     }
-    .spotify-playlists div {
-        flex: 1;
-    }
+
+    /* beginner page */
+    
 
 
-    /* advvanced page */
+    /* advanced page */
     /* contact */
+    
+    #contact-form label, #contact-form input, #message {
+        padding: 5px 0 ;
+    }
     #message {
         width: 50%;
         /* change cols of message box */
     }
+
 
 
 /* FOR LAPTOPS AND DESKTOPS */
@@ -335,6 +334,23 @@ header, p, .spotify-playlists, .stretch-lists {
     .routine {
         display: none;
     }
+
+
+    /* intermediate page */
+    .i-exercises {
+        margin: 30px 10% 0px 8%;
+        display: flex;
+        flex-direction: row;
+    }
+    #i-exercises-body {
+        margin: auto;
+        flex: 1;
+    }
+    #i-exercises-ppl {
+        margin: auto;
+        flex: 2;
+    }
+
 
     /* motivation page */
     #motivation hr {
