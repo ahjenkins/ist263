@@ -49,12 +49,76 @@
                 <h2>Exercises by Muscle Group</h2>
                 <hr>
             </header>
-            <table>
-                <caption>Exercises</caption>
-                <tr>
-                    <td></td>
+            <table class="exercises" id="i-exercises-body">
+                <caption>Exercises for Full Body</caption>
+                <tr class="evenrow">
                     <th>Upper Body</th>
                     <th>Lower Body</th>
+                </tr>
+
+                <!-- Row 1: Compound -->
+                <tr>
+                    <td>Pull Up</td>
+                    <td>Deadlift</td>
+                </tr>
+
+                <!-- Row 2 -->
+                <tr class="evenrow">
+                    <td>Arnold Press</td>
+                    <td>Squat</td>
+                </tr>
+
+                <!-- Row 3 -->
+                <tr>
+                    <td>DB Incline Press</td>
+                    <td>Leg Press</td>
+                </tr>
+
+                <!-- Row 4 -->
+                <tr class="evenrow">
+                    <td>DB Upright Row</td>
+                    <td>Hip Thrust</td>
+                </tr>
+
+                <!-- Row 5 -->
+                <tr>
+                    <td>MA Chest Flies</td>
+                    <td>Lunges</td>
+                </tr>
+
+                <!-- Row 6 -->
+                <tr class="evenrow">
+                    <td>Chest Press</td>
+                    <td>Side Steps</td>
+                </tr>
+
+                <!-- Row 7 -->
+                <tr>
+                    <td>MA Overhead Press</td>
+                    <td>Bulgarian Squat</td>
+                </tr>
+
+                <!-- Row 8 -->
+                <tr class="evenrow">
+                    <td>Bicep Curls</td>
+                    <td>Calf Raises</td>
+                </tr>
+
+                <!-- Row 9: Isolation -->
+                <tr>
+                    <td>Tricep Pushdown</td>
+                    <td>Hamstring Curls</td>
+                </tr>
+            </table>
+            <p class="intermediate-p">
+                DB = dumbbell<br>
+                MA = machine
+            </p>
+
+            <!-- second exercise table -->
+            <table class="exercises" id="i-exercises-ppl">
+                <caption>Exercises for Push, Pull, Leg</caption>
+                <tr class="evenrow">
                     <th>Push</th>
                     <th>Pull</th>
                     <th>Legs</th>
@@ -62,19 +126,13 @@
 
                 <!-- Row 1: Compound -->
                 <tr>
-                    <td>Compound</td>
-                    <td>Pull Up</td>
-                    <td>Deadlift</td>
                     <td>Push Up</td>
                     <td>Pull Up</td>
                     <td>Deadlift</td>
                 </tr>
-
+                 
                 <!-- Row 2 -->
-                <tr>
-                    <td></td>
-                    <td>Arnold Press</td>
-                    <td>Squat</td>
+                 <tr class="evenrow">
                     <td>Incline DB Press</td>
                     <td>Chin Ups</td>
                     <td>Romanian Deadlift</td>
@@ -82,19 +140,13 @@
 
                 <!-- Row 3 -->
                 <tr>
-                    <td></td>
-                    <td>DB Incline Press</td>
-                    <td>Leg Press</td>
                     <td>DB Chest Flies</td>
                     <td>Lat Pulldown</td>
                     <td>Squat</td>
                 </tr>
 
                 <!-- Row 4 -->
-                <tr>
-                    <td></td>
-                    <td>DB Upright Row</td>
-                    <td>Hip Thrust</td>
+                <tr class="evenrow">
                     <td>Tricep Dips</td>
                     <td>DB Bent Over Row</td>
                     <td>Leg Press</td>
@@ -102,19 +154,13 @@
 
                 <!-- Row 5 -->
                 <tr>
-                    <td></td>
-                    <td>MA Chest Flies</td>
-                    <td>Lunges</td>
                     <td>Tricep Pushdown</td>
                     <td>Pullovers</td>
                     <td>Lunges</td>
                 </tr>
 
                 <!-- Row 6 -->
-                <tr>
-                    <td></td>
-                    <td>Chest Press</td>
-                    <td>Side Steps</td>
+                <tr class="evenrow">
                     <td>MA Overhead Press</td>
                     <td>DB Curls</td>
                     <td>Goblet Squat</td>
@@ -122,37 +168,27 @@
 
                 <!-- Row 7 -->
                 <tr>
-                    <td></td>
-                    <td>MA Overhead Press</td>
-                    <td>Bulgarian Squat</td>
                     <td>DB Shoulder Press</td>
                     <td>Hammer Curls</td>
                     <td>Calf Raises</td>
                 </tr>
 
                 <!-- Row 8 -->
-                <tr>
-                    <td></td>
-                    <td>Bicep Curls</td>
-                    <td>Calf Raises</td>
+                <tr class="evenrow">
                     <td>Side Lateral</td>
                     <td>DB Shrugs</td>
                     <td>Leg Extensions</td>
                 </tr>
 
-                <!-- Row 9: Isolation -->
+                <!-- Row 9: isolation -->
                 <tr>
-                    <td>Isolation</td>
-                    <td>Tricep Pushdown</td>
-                    <td>Hamstring Curls</td>
                     <td>Tricep Extensions</td>
                     <td>DB Rows</td>
                     <td>Leg Curls</td>
                 </tr>
             </table>
-            <p>
-                DB = dumbbell<br>
-                MA = machine
+            <p class="intermediate-p">
+                Note: Table starts with compound exercises at the top then transitions to isolation exercises as you read down the table.
             </p>
         </section>
         <section>
@@ -166,6 +202,63 @@
                 A sample schedule is provided for you below.
             </p>
             <img src="media/intermediate_sample.png" alt="Intermediate Sample Schedule" class="schedule" id="i-schedule">
+            <table class="routine" id="i-routine">
+                <caption>Intermediate Sample Calendar</caption>
+                <tr class="evenrow">
+                    <th>Day 1</th>
+                    <th>Day 2</th>
+                    <th>Day 3</th>
+                    <th>Day 4</th>
+                    <th>Day 5</th>
+                </tr>
+
+                <!-- row 1 -->
+                <tr>
+                    <td>Pull up</td>
+                    <td>Deadlift</td>
+                    <td>Push up</td>
+                    <td>Pull up</td>
+                    <td>Romanian Deadlift</td>
+                </tr>
+
+                <!-- row 2 -->
+                <tr class="evenrow">
+                    <td>Arnold press</td>
+                    <td>Squat</td>
+                    <td>Incline DB press</td>
+                    <td>Chin ups</td>
+                    <td>Lunges</td>
+                </tr>
+
+                <!-- row 3 -->
+                <tr>
+                    <td>DB incline press</td>
+                    <td>Leg press</td>
+                    <td>DB chest flies</td>
+                    <td>Lat pulldown</td>
+                    <td>Goblet squat</td>
+                </tr>
+
+                <!-- row 4 -->
+                <tr class="evenrow">
+                    <td>Bicep curl</td>
+                    <td>Calf raises</td>
+                    <td>Side lateral</td>
+                    <td>DB shrugs</td>
+                    <td>Leg extensions</td>
+                </tr>
+
+                <!-- row 5 -->
+                <tr>
+                    <td>Tricep pushdown</td>
+                    <td>Hamstring curls</td>
+                    <td>Tricep extensions</td>
+                    <td>DB rows</td>
+                    <td>Leg curls</td>
+                </tr>
+
+            </table>
+
             <p class="intermediate-p">
                 This is a simple and standard workout of <b>3 sets of 12 reps</b> for each exercise. Rep is short for repition, and it represents the number of times you complete an exercise. The number of reps you aim to complete at once is called a set.<br>
                 A range of 6 to 15 reps will increase <b>hypertrophy</b>. One to five reps will increase <b>strength</b>, and more than 15 reps will increase <b>endurance</b>. <b>Rest</b> times will vary as well. For hypertrophy, anywhere from 30 seconds to 2 minutes is sufficient. For strength, 3-5 minutes is a good amount of time to recover. For endurance, 20-90 seconds will help you push your limits.<br>
