@@ -306,7 +306,6 @@ header, p, .spotify-playlists, .stretch-lists {
         display: block;
         float: right;
     }
-    .spotify-link {}
     .spotify-link:hover {
         height: 380px;
     }
