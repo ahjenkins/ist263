@@ -297,6 +297,9 @@ header, p, .spotify-playlists, .stretch-lists {
     }
 
     /* playlists */
+    .playlists .home-p {
+        padding-right: 35%;
+    }
     .playlists-img {
         width: 35%;
         margin-right: 8%;
