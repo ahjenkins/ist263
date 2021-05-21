@@ -51,10 +51,16 @@ footer {
     color: #edeae5;
     font-size: 0.9em;
     margin-top: 80px;
-    padding: 2px 0px;
+    padding: 12px 0px;
 }
 footer p {
     margin-left: 20px;
+    display: inline;
+}
+footer a {
+    margin-right: 20px;
+    float: right;
+    color: #edeae5;
 }
 
 
@@ -203,7 +209,7 @@ header, p, .spotify-playlists, .stretch-lists {
 @media only screen and (min-width: 768px) {
     /* home page */
     .header-image {
-        width: auto;
+        height: 20%;
     }
     /* determine your fitness level */
     .level-img {
